@@ -1,8 +1,55 @@
-h1 {
-  color: blue;
-  font-family: "Asap", sans-serif;
+:root {
+  --heading-fonts: "Asap", sans-serif;
+  --default-fonts: "Poppins", sans-serif;
+  --first-color: #811112;
+  --second-color: #ac3834;
+  --third-color: #b41e22;
+  --forth-color: #3d0b0c;
+  --background-color: #edd7bd;
+  --btn-box-shadow: 5px 5px rgba(145, 145, 145, 0.5);
 }
 
-p {
-  font-family: "Poppins", sans-serif;
+h1 {
+  font-family: var(--heading-fonts);
+  color: var(--third-color);
+  font-size: 90px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-family: var(--default-fonts);
+  font-weight: normal;
+  margin-bottom: 40px;
+  font-size: 28px;
+  line-height: 1.5;
+}
+
+.hero {
+  padding: 50px 40px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.hero p {
+  margin: 0;
+  font-weight: bold;
+  font-family: var(--default-fonts);
+  font-size: 27px;
+  color: var(--forth-color);
+}
+
+.contact-btn {
+  font-family: var(--default-fonts);
+  padding: 15px 30px;
+  font-size: 18px;
+  box-shadow: var(--btn-box-shadow);
+  background-color: var(--first-color);
+  color: white;
+  border: 2px solid var(--first-color);
+  border-radius: 5px;
+}
+.contact-btn:hover {
+  color: var(--first-color);
+  background-color: white;
+  border: 2px solid var(--first-color);
 }
