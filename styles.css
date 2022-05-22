@@ -16,18 +16,18 @@ h1 {
   margin-bottom: 18px;
 }
 
-h2 {
+.hero {
+  padding: 50px 40px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+.hero h2 {
   font-family: var(--default-fonts);
   font-weight: normal;
   margin-bottom: 40px;
   font-size: 28px;
   line-height: 1.5;
-}
-
-.hero {
-  padding: 50px 40px;
-  text-align: center;
-  background-color: var(--background-color);
 }
 
 .hero p {
@@ -38,7 +38,8 @@ h2 {
   color: var(--forth-color);
 }
 
-.contact-btn {
+.contact-btn,
+.project-btn {
   font-family: var(--default-fonts);
   padding: 15px 30px;
   font-size: 18px;
@@ -48,8 +49,13 @@ h2 {
   border: 2px solid var(--first-color);
   border-radius: 5px;
 }
-.contact-btn:hover {
+.contact-btn:hover,
+.project-btn:hover {
   color: var(--first-color);
   background-color: white;
   border: 2px solid var(--first-color);
+}
+
+a {
+  text-decoration: none;
 }
