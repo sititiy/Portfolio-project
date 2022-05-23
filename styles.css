@@ -16,6 +16,21 @@ h1 {
   margin-bottom: 18px;
 }
 
+h2 {
+  font-family: var(--heading-fonts);
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-family: var(--default-fonts);
+}
+
+a {
+  text-decoration: none;
+}
+
 .hero {
   padding: 50px 40px;
   text-align: center;
@@ -56,6 +71,33 @@ h1 {
   border: 2px solid var(--first-color);
 }
 
-a {
-  text-decoration: none;
+.project-name {
+  font-size: 46px;
+}
+
+.project-pic {
+  border-radius: 5px;
+}
+
+.project-description {
+  padding: 100px 50px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .hero {
+    padding: 25px 20px;
+  }
+
+  .project-name {
+    font-size: 34px;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
