@@ -101,6 +101,7 @@ nav li.active a {
   color: var(--first-color);
   background-color: white;
   border: 2px solid var(--first-color);
+  transition: all 100ms ease-in-out;
 }
 
 .project-name {
@@ -176,6 +177,36 @@ nav li.active a {
 
 .contact a:hover {
   color: var(--forth-color);
+}
+
+.icons {
+  color: var(--first-color);
+  background-color: var(--background-color);
+  margin-right: 5px;
+}
+
+.icons:hover {
+  color: var(--forth-color);
+}
+
+footer {
+  margin-top: 95px;
+  margin-bottom: 55px;
+}
+
+footer a {
+  font-size: 28px;
+  margin-right: 15px;
+  color: var(--first-color);
+  background-color: var(--background-color);
+  padding: 15px 20px;
+  border-radius: 50%;
+}
+
+footer a:hover {
+  color: var(--background-color);
+  background-color: var(--first-color);
+  transition: all 100ms ease-in-out;
 }
 
 @media (max-width: 900px) {
