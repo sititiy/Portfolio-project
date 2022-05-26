@@ -84,7 +84,8 @@ a {
 }
 
 .about,
-.works {
+.works,
+.contact {
   padding: 50px 40px;
 }
 
@@ -124,8 +125,28 @@ a {
   text-align: center;
 }
 
-.works .shahnameh {
-  height: 474px;
+.contact {
+  text-align: center;
+}
+
+.contact-infos {
+  background-color: var(--background-color);
+  border-radius: 10px;
+  padding: 29px 0;
+  box-shadow: var(--btn-box-shadow);
+}
+
+.contact h2 {
+  font-family: var(--default-fonts);
+}
+
+.contact a {
+  color: var(--second-color);
+  font-weight: 600;
+}
+
+.contact a:hover {
+  color: var(--forth-color);
 }
 
 @media (max-width: 900px) {
