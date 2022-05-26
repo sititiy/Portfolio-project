@@ -83,6 +83,30 @@ a {
   padding: 100px 50px;
 }
 
+.about {
+  padding: 50px 40px;
+}
+
+.about-content {
+  padding: 100px 50px;
+}
+
+.about h1 {
+  text-align: center;
+}
+.about h2 {
+  font-family: var(--default-fonts);
+  font-weight: bold;
+}
+
+.about p {
+  line-height: 1.7;
+}
+
+.about img {
+  border-radius: 10px;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
@@ -99,5 +123,15 @@ a {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about {
+    text-align: center;
+    padding: 25px 20px;
+  }
+
+  .about-content {
+    padding: 50px 25px;
+    padding-top: 10px;
   }
 }
