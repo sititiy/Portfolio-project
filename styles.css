@@ -209,6 +209,17 @@ footer a:hover {
   transition: all 100ms ease-in-out;
 }
 
+.open-source-detail {
+  font-size: 10px;
+  text-align: center;
+}
+.open-source-detail a {
+  color: var(--forth-color);
+}
+.open-source-detail a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 70px;
