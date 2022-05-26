@@ -48,7 +48,6 @@ a {
 .hero p {
   margin: 0;
   font-weight: bold;
-  font-family: var(--default-fonts);
   font-size: 27px;
   color: var(--forth-color);
 }
@@ -79,7 +78,8 @@ a {
   border-radius: 5px;
 }
 
-.project-description {
+.project-description,
+.about-content {
   padding: 100px 50px;
 }
 
