@@ -31,6 +31,39 @@ a {
   text-decoration: none;
 }
 
+nav {
+  font-family: var(--default-fonts);
+  font-weight: 50;
+  font-size: 20px;
+  padding: 20px;
+}
+
+nav a {
+  color: #272142;
+}
+nav a:hover {
+  color: var(--first-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav .logo {
+  color: var(--second-color);
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 17px;
+}
+nav li.active a {
+  color: var(--third-color);
+}
+
 .hero {
   padding: 50px 40px;
   text-align: center;
@@ -87,10 +120,6 @@ a {
 .works,
 .contact {
   padding: 50px 40px;
-}
-
-.about-content {
-  padding: 100px 50px;
 }
 
 .about h1 {
@@ -179,5 +208,9 @@ a {
 
   .works img {
     margin-top: 50px;
+  }
+
+  nav a {
+    font-size: 16px;
   }
 }
