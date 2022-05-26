@@ -41,11 +41,11 @@ nav {
 nav a {
   color: #272142;
 }
+
 nav a:hover {
   color: var(--first-color);
   transition: all 100ms ease-in-out;
 }
-
 nav .logo {
   color: var(--second-color);
 }
@@ -211,6 +211,6 @@ nav li.active a {
   }
 
   nav a {
-    font-size: 16px;
+    font-size: 10px;
   }
 }
